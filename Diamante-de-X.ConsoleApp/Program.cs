@@ -4,8 +4,6 @@ namespace Diamante_de_X.ConsoleApp;
 
 internal class Program
 {
-    //O número de linhas e colunas deve ser igual ao número ímpar fornecido.
-    //A linha central do diamante deve conter o número máximo de 'X's.
 
     static void Main(string[] args)
     {
@@ -24,6 +22,7 @@ internal class Program
             Console.Write($"(X) {valorDigitado} não é ímpar, digite novamente: ");
             valorDigitado = Convert.ToInt32(Console.ReadLine());
         }
+
         while (valorDigitado < 0 || valorDigitado > limitedodiamante) 
         {
             Console.Clear();
@@ -47,10 +46,7 @@ internal class Program
             {
                 Console.WriteLine(new string(' ', i - valorDigitado / 2) + new string('x', 2 * (valorDigitado - i) - 1));
             }
-
-
         }
         Console.WriteLine("---------------------------------------------------------");
-
     }
 }
