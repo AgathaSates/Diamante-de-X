@@ -5,7 +5,7 @@ class EscrevaInteracao
     public static bool GerarDiamanteNovamente()
     {
         Thread.Sleep(1000);
-        Console.Write("Deseja montar outro diamante? (S/N): ");
+        Colorir.EscreverEmAmarelo("Deseja montar outro diamante? (S/N): ");
 
         Validadores.SimouNaoValido();
 
@@ -18,7 +18,7 @@ class EscrevaInteracao
 
     public static void PedirEntrada()
     {
-        Console.Write("-> Digite um número ímpar entre 3 e 51: ");
+        Colorir.EscreverEmAmarelo("-> Digite um número ímpar entre 3 e 51: ");
         Validadores.valorValido = Validadores.EhValido();
     }
 }
