@@ -1,6 +1,4 @@
-﻿using Diamante_de_X.ConsoleApp.Entidades;
-
-namespace Diamante_de_X.ConsoleApp.Entidades.Utilitários;
+﻿namespace Diamante_de_X.ConsoleApp.Entidades.Utilitários;
 
 class EscrevaTexto
 {

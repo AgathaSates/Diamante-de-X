@@ -4,9 +4,8 @@
 
  ### Demonstração
 
->
->![Demonstração do Projeto, gif imgur](https://i.imgur.com/ot7EwA6.gif)
 
+>![Demonstração do Projeto, gif imgur](https://i.imgur.com/ot7EwA6.gif)
 
 ## Índice
 
