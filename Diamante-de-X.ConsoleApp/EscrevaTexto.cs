@@ -5,6 +5,7 @@ class EscrevaTexto
     public static void ExibirTitulo()
     {
         Console.Clear();
+        Console.WriteLine("\x1b[3J");
         Colorir.EscreverEmAzulEscuro("---------------------------------------------------------");
         Colorir.EscreverEmAzulEscuro("                   Diamante de X");
         Colorir.EscreverEmAzulEscuro("---------------------------------------------------------");
@@ -13,6 +14,7 @@ class EscrevaTexto
     public static void ExibirDiamante()
     {
         Console.Clear();
+        Console.WriteLine("\x1b[3J");
         ExibirTitulo();
         Colorir.EscreverEmAmarelo("-> Gerando Diamante");
         EscreverLento("...");
