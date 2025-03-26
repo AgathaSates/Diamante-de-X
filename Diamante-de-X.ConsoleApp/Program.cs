@@ -2,7 +2,6 @@
 
 internal class Program
 {
-
     static void Main(string[] args)
     {
         do
@@ -12,6 +11,5 @@ internal class Program
             EscrevaTexto.ExibirDiamante();
 
         } while (EscrevaInteracao.GerarDiamanteNovamente());
-
     }
 }

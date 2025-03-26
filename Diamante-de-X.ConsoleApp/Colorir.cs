@@ -15,6 +15,7 @@ class Colorir
         Console.Write(mensagem);
         Console.ResetColor();
     }
+
     public static void EscreverCharEmAmarelo(char c)
     {
         Console.ForegroundColor = ConsoleColor.Yellow;
@@ -28,6 +29,7 @@ class Colorir
         Console.WriteLine(mensagem);
         Console.ResetColor();
     }
+
     public static void EscreverEmCiano(string mensagem)
     {
         Console.ForegroundColor = ConsoleColor.Cyan;

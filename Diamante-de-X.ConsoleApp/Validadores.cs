@@ -2,7 +2,6 @@
 
 class Validadores
 {
-    
     public static int valorValido;
     public static string valorDigitado = "";
     public static string opcaoContinuar = "";
