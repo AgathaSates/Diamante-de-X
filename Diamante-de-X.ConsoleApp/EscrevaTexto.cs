@@ -5,30 +5,30 @@ class EscrevaTexto
     public static void ExibirTitulo()
     {
         Console.Clear();
-        Console.WriteLine("---------------------------------------------------------");
-        Console.WriteLine("               Diamante de X");
-        Console.WriteLine("---------------------------------------------------------");
+        Colorir.EscreverEmAzulEscuro("---------------------------------------------------------");
+        Colorir.EscreverEmAzulEscuro("                   Diamante de X");
+        Colorir.EscreverEmAzulEscuro("---------------------------------------------------------");
     }
 
     public static void ExibirDiamante()
     {
         Console.Clear();
         ExibirTitulo();
-        Console.Write("-> Gerando Diamante");
+        Colorir.EscreverEmAmarelo("-> Gerando Diamante");
         EscreverLento("...");
         Thread.Sleep(1150);
 
         Console.WriteLine();
-        Console.WriteLine("---------------------------------------------------------");
+        Colorir.EscreverEmAzulEscuro("---------------------------------------------------------");
         Diamante.DesenharDiamante();
-        Console.WriteLine("---------------------------------------------------------");
+        Colorir.EscreverEmAzulEscuro("---------------------------------------------------------");
     }
 
     public static void EscreverLento(string mensagem)
     {
         foreach (char c in mensagem)
         {
-            Console.Write(c);
+            Colorir.EscreverCharEmAmarelo(c);
             Thread.Sleep(250);
         }
     }
