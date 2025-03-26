@@ -1,4 +1,4 @@
-﻿namespace Diamante_de_X.ConsoleApp;
+﻿namespace Diamante_de_X.ConsoleApp.Entidades.Utilitários;
 
 class Colorir
 {

@@ -1,4 +1,6 @@
-﻿namespace Diamante_de_X.ConsoleApp;
+﻿using Diamante_de_X.ConsoleApp.Entidades.Utilitários;
+
+namespace Diamante_de_X.ConsoleApp;
 
 internal class Program
 {
