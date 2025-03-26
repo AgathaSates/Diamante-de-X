@@ -14,12 +14,22 @@ class EscrevaTexto
     {
         Console.Clear();
         ExibirTitulo();
-        Console.WriteLine("Gerando Diamante...");
+        Console.Write("-> Gerando Diamante");
+        EscreverLento("...");
         Thread.Sleep(1150);
 
+        Console.WriteLine();
         Console.WriteLine("---------------------------------------------------------");
         Diamante.DesenharDiamante();
         Console.WriteLine("---------------------------------------------------------");
     }
 
+    public static void EscreverLento(string mensagem)
+    {
+        foreach (char c in mensagem)
+        {
+            Console.Write(c);
+            Thread.Sleep(250);
+        }
+    }
 }
