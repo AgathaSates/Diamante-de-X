@@ -3,14 +3,12 @@
 class EscrevaErros
 {
     public static void NaoEstaNoIntervalo()
-    {
-        Console.Clear();
+    { 
         Colorir.EscreverEmVermelho($"(X) {Validadores.valorValido} não está entre 3 e 51, digite novamente: ");
     }
 
-    public static void NaoehImpar() 
-    {
-        Console.Clear();
+    public static void NaoehImpar()
+    { 
         Colorir.EscreverEmVermelho($"(X) {Validadores.valorValido} não é ímpar, digite novamente: ");
     }
 
